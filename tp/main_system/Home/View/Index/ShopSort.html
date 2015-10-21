@@ -1,0 +1,25 @@
+<include file="./main_system/Home/View/Index/commen/header.html" />
+<link rel="stylesheet" type="text/css" href="__ROOT__/main_system/Home/View/Index/css/index_shop_group.css" />
+	<div class="cut"></div>
+	<div class="nav">
+	<!--调用底部购物车页面-->
+	<include file="./main_system/Home/View/Index/commen/ShopCart.html" />
+	<!--调用底部购物车页面-->
+	</div>
+	<div class="content">
+		<ul>
+			<foreach name="group_shop" item="shop_date">
+			<li>
+				<span class="b_type"><b>{$shop_date.cat_name}</b></span>
+				<span>
+					<ul>
+						<foreach name="shop_date.list" item="Second_date">
+						<li><a href="__URL__/GoodsSort/category_goods/1/type/{$Second_date.cat_id}">{$Second_date.cat_name}</a></li>
+						</foreach>
+					</ul>
+				</span>
+			</li>
+			</foreach>
+		</ul>
+	</div>
+<include file="./main_system/Home/View/Index/commen/footer.html" />

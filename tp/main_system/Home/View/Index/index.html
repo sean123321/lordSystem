@@ -1,0 +1,23 @@
+<include file="./main_system/Home/View/Index/commen/header.html" />
+
+<div class="cut"></div>
+	<div class="nav"></div>
+	<div class="content">
+		<ul>
+			<volist name="group_addre" id="area_list">
+			<li>
+				<span class="b_type">{$area_list.name}</span>
+				<span>
+					<ul>
+						<foreach name="group_shop" item="shop_date">
+						<in name="area_list['id']" value="$shop_date['g_id']">
+							<li><a href="index.php/Home/Index/ShopSort/shop_id/{$shop_date.id}">{$shop_date.name}</a></li>	
+						</in>
+						</foreach>
+					</ul>
+				</span>
+			</li>
+			 </volist>
+		</ul>
+	</div>
+<include file="./main_system/Home/View/Index/commen/footer.html" />

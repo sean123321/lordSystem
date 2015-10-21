@@ -1,0 +1,62 @@
+
+/**
+*
+*店铺分类的总样式
+*
+***/
+	.content ul li{
+		display:block;
+		text-align:left;
+		float:left;
+		width:90%;
+	}
+	.content ul li .b_type{
+		border-bottom:1px solid #eeeeee;
+		width:100%;
+		display:block;
+		height:25px;
+		line-height:25px;
+		padding-left:25px;
+		font-size:16px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.content ul li .b_type a{
+		color:#5c5b5b;
+		font-weight:bold;
+		text-decoration:none;
+	}
+	.content ul li span ul{
+		float:left;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.content ul li span .img{
+		float:left;
+		min-width:190px;
+	}
+	.content ul li span ul li{
+		border-top:none;
+		border-bottom:none;
+		line-height:20px;
+		padding-left:25px;
+		padding-top:5px;
+		padding-bottom:5px;
+		width:100px;
+		min-width:none;
+		float:left;
+	}
+	.content ul li span ul li a{
+		color:#5c5b5b;
+		text-decoration:none;
+		font-size:14px;
+	}
+	.banner img{
+		width:100%;
+	}
+	
+/**
+*
+*店铺分类的总样式
+*
+***/	

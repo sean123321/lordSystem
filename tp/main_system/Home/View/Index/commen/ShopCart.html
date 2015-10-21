@@ -1,0 +1,59 @@
+	<style>
+		.menus{
+			position:fixed;
+			left:0px;
+			bottom:0px;
+			width:100%;
+		}
+		.menus a{
+			color:#41403b;
+			display:block;
+			padding:10px;
+		}
+		.menus table{
+			text-align:center;
+		}
+		.menus table{
+			font-size:18px;
+			line-height:25px;
+		}
+	</style>
+	<span class="menus">
+		<table width="100%" border="0" bgcolor="#cccccc" cellspacing="1" cellpadding="10">
+		
+			<td >
+				<a href="{$url}wx_index.php?act=index_cp_list&zx=1">促销</a>
+			</td>
+			
+			<td >
+				<a href="{$url}wx_index.php?act=index_cp_list&category=1">全部</a>
+			</td>
+			
+			<td >
+				<a href="{$url}wx_index.php?act=index_cp_list&search=1">
+					<img src="./image/2222.png" width="25"/>
+				</a>
+			</td>
+			
+			<td 
+				onclick="location.href='{$url}wx_index.php?act=index_cp_list&cart=1'">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" valign="middle">
+					<tr>
+						<td width="50%" align="right" valign="middle">
+							<img src="./image/1111.png" width="25"/>
+						</td>
+						<td width="50%" align="left" valign="top">
+							(<span color="red" id="num">{$shop_num}</span>)
+						</td>
+					</tr>
+				</table>
+			</td>
+			
+			<td>
+				<a href="{$url}wx_index.php?act=ucenter">
+					我的订单
+				</a>
+			</td>
+			
+		</table>
+	</span>

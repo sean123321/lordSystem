@@ -1,0 +1,182 @@
+/**
+公共样式
+**/
+	/*通用css*/
+	*{
+		margin:0 auto;
+		padding:0;
+	}
+	a{
+		text-decoration:none;
+	}
+	a img{
+		border:0;
+	}
+	ul li{
+		list-style-type:none;
+	}
+	input,textarea{
+		border:1px #c3c3c3 solid;
+	}
+	#main{
+		width:100%;
+		display:block;
+		background-color:white;
+	}
+	.head{
+		min-width:320px;
+		width:100%;
+		height:40px;
+		overflow:hidden;
+	}
+	.logo{
+		float:left;
+	}
+	.home{
+		float:right;
+	}
+	.cut{
+		min-width:320px;
+		width:100%;
+		height:1px;
+		background-color:#d6d6d6;
+
+	}
+	/*登陆css*/
+	.content{
+		width:100%;
+		min-width:320px;
+		text-align:center;
+		margin-bottom:30px;
+	}
+	
+	/*登录 注册 找回密码 联销体登录 注册等使用 开始*/
+	.login{
+		width:95%;
+		min-width:300px;
+		border:1px #d6d6d6 solid;
+		margin-top:25px;
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	.login ul li{
+		line-height:30px;
+		height:30px;
+		margin-bottom:10px;
+	}
+	.login ul li input{
+		height:25px;
+		width:250px;
+	}
+	.login_sub{
+		cursor:pointer;
+		margin-top:30px;
+	}
+	.lable{
+		width:80px;
+		text-align:right;
+		display:block;
+		float:left;
+	}
+	.input{
+		width:180px;
+		text-align:left;
+		display:block;
+		float:left;
+	}
+	/*登录 注册 找回密码 联销体登录 注册等使用 结束*/
+	
+	/*产品分类 商品列表 开始*/
+
+	.blc{
+		background-repeat:no-repeat;
+	}
+
+	/*产品分类 商品列表 结束*/
+
+
+/**
+公共样式结束
+**/
+/**
+首页css
+**/
+		.nav{
+			min-width:320px;
+			width:100%;
+		}
+		.menus{
+			min-width:320px;
+			width:100%;
+		}
+		.menus ul{
+			min-width:300px;
+			width:98%;
+			display:block;
+			float:left;
+			background-color:#eeeeee;
+			border:1px solid #c3c3c3;
+		}
+		.menus ul li{
+			width:32%;
+			min-width:100px;
+			display:block;
+			float:left;
+			border-left:1px solid #c3c3c3;
+			text-align:center;
+		}
+		.menus ul li a{
+			text-decoration:none;
+			color:#41403b;
+			padding:10px;
+			display:block;
+		}
+
+		.content ul li{
+			display:block;
+			text-align:left;
+			border-bottom:1px solid #eeeeee;
+			float:left;
+			width:95%;
+		}
+		.content ul li .b_type{
+			border-bottom:1px solid #eeeeee;
+			display:block;
+			height:25px;
+			line-height:25px;
+			padding-left:25px;
+			font-size:16px;
+		}
+		.content ul li .b_type a{
+			color:#5c5b5b;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		.content ul li span ul{
+			float:left;
+		}
+		.content ul li span .img{
+			float:left;
+			min-width:190px;
+		}
+		.content ul li span ul li{
+			border-top:none;
+			border-bottom:none;
+			line-height:20px;
+			padding-left:25px;
+			min-width:none;
+			float:left;
+			padding-top:5px;
+			padding-bottom:5px;
+		}
+		.content ul li span ul li a{
+			color:#5c5b5b;
+			text-decoration:none;
+			font-size:13px;
+		}
+		.banner img{
+			width:100%;
+		}
+/**
+首页css结束
+**/
